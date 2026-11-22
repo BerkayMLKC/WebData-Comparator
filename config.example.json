@@ -1,0 +1,18 @@
+{
+  "threshold": 0.8,
+  "delay_seconds": 1,
+  "sources": [
+    {
+      "name": "Store A",
+      "path": "examples/store_a.html",
+      "base_url": "https://store-a.example",
+      "selectors": { "item": ".product", "name": ".title a", "price": ".price", "link": ".title a" }
+    },
+    {
+      "name": "Store B",
+      "path": "examples/store_b.html",
+      "base_url": "https://store-b.example",
+      "selectors": { "item": "li.card", "name": ".name", "price": ".amount", "link": "a.more" }
+    }
+  ]
+}
